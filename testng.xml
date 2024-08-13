@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true" name="C:/Users/Pc/Desktop/It akademija/Python and Java/Java/Vezbe/Project">
+        <classes>
+            <class name="autoTesting.test">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="autoTesting.test">
+                <methods>
+                    <include name="Test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
